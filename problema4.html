@@ -1,0 +1,8 @@
+<meta charset="UTF-8">
+<script>
+    const área = prompt("Informe o tamanho da parede a ser construída área em M²")
+    const áreaecimento = Number(área * 0.97)
+    const parede = Number(áreaecimento * 361)
+    const parede1 = Number(áreaecimento / parede)
+    alert(`Sua precisará de ${Math.ceil(parede1)} tijolo(s)`)
+</script>
